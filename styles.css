@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    color: #ff5555;
+    margin-bottom: 1.5rem;
+}
+
+.terminal {
+    background-color: #161b22;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal p {
+    margin: 0.5rem 0;
+}
+
+#access-code {
+    width: 80%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #c9d1d9;
+    border-radius: 4px;
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+#access-code:focus {
+    outline: none;
+    border-color: #ff5555;
+}
+
+button {
+    background: #ff5555;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff7777;
+}
+
+#error-message {
+    color: #ff5555;
+    font-size: 0.9rem;
+}
